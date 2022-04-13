@@ -1,0 +1,162 @@
+.user{
+  flex: 4;
+	padding: 20px;
+}
+
+.user__title-container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.user-button{
+	width: 80px;
+	padding: 5px;
+	border: none;
+	border-radius: 5px;
+	font-size: 1rem;
+	background-color: #d2b48c;
+	cursor: pointer;
+}
+
+.user__container{
+	display: flex;
+}
+
+.user__show{
+	flex: 1;
+	box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+	border-radius: 5px;	
+}
+
+.user__update{
+	flex: 2;
+	box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-left: 20px;
+	border-radius: 5px;
+}
+
+.user__update-form{
+	display: flex;
+	justify-content: space-between;
+}
+
+.user__show-top{
+	display: flex;
+}
+
+.user-show-image{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.user__show-title{
+	display: flex;
+	flex-direction: column;
+	margin-left: 10px;
+}
+
+.user-username{
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
+.user__show-bottom{
+	margin-top: 25px;
+}
+
+.user__show-bottom-title{
+	margin: 15px 20px;
+	color: #9b9393;
+	font-size: 1.2rem;
+}
+
+.user__show-info{
+	display: flex;
+	align-items: center;
+}
+
+.user__show-info-title{
+	margin: 12px;
+}
+
+.user-show-icon{
+	font-size: 1.2rem;
+}
+
+.user__update-title{
+	font-size: 1.5rem;
+	font-weight: 600;
+	margin: 20px 0;
+}
+
+.user__update-right{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.user__update-upload-image{
+	position: relative;	
+}
+
+.user__update-image{
+	width: 250px;
+	height: 250px;
+	border-radius: 10px;
+	object-fit: cover;
+	margin-right: 20px;
+}
+
+.upload{
+	position: absolute;
+	font-size: 2rem;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	width: 250px;
+	height: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 10px;
+	color: #fff;
+	background: rgba(14, 77, 73, 0.486);
+}
+.upload-input{
+	display: none;
+}
+
+.user__update-item{
+	display: flex;
+	flex-direction: column;
+	margin: 10px 0;
+}
+
+.user__update-input{
+	margin: 5px 0;
+	border: none;
+	border-bottom: 2px solid #4e4949;
+	height: 30px;
+	width: 250px;
+	outline: none;
+	font-size: 1rem;
+}
+
+.update-item-button{
+	margin-top: 10px;
+	cursor: pointer;
+	background-color: #143595;
+	color: #ffffff;
+	border: none;
+	width: 150px;
+	padding: 5px 7px;
+	border-radius: 5px;
+	font-size: 1.2rem;
+	font-weight: 600;
+	margin-right: 20px;
+}

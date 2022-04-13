@@ -1,0 +1,31 @@
+.sidebar__menu{
+    padding: 20px;
+}
+
+.sidebar__title{
+    padding: 10px 0;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.sidebar__list{
+    margin-left: 1rem;
+}
+
+.sidebar__list-item{
+    cursor: pointer;
+    padding: 5px;
+    list-style: none;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-icon{
+    margin-right: 5px;
+}
+
+.sidebar__list-item.active, .sidebar__list-item:hover{
+    background-color: #fa6305;
+    border-radius: 10px;
+}

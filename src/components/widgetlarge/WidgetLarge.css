@@ -1,0 +1,56 @@
+.widget__large{
+    flex: 2;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+
+.widget__large-table{
+    width: 100%;
+    border-spacing: 25px;
+}
+
+.widget__large-th{
+    text-align: start;
+}
+
+.user-box{
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.user-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 5px;
+}
+
+.button{
+    padding: 5px 7px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.date,.amount{
+    font-weight: 300;
+}
+
+.button.Approved{
+    color: #bebdb7;
+    background-color: #383a33;
+}
+
+.button.Declined{
+    color: #bebdb7;
+    background-color: #d34421;
+}
+
+.button.Pending{
+    color: #696862;
+    background-color: #50c21c;
+}
