@@ -86,6 +86,9 @@ export default function Movielist() {
     <div className="productlist" style={{ height: 600, width: "100%" }}>
       <div className="productlist__title">
         <h1>Product List</h1>
+        <Link to="/newMovie">
+          <button className="product-button">Create</button>
+        </Link>
       </div>
       <DataGrid
         rows={movies}
