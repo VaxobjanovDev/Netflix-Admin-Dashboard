@@ -76,6 +76,9 @@ export default function Userlist() {
     <div className="user-list" style={{ height: 600, width: "100%" }}>
       <div className="userlist__title">
         <h1>User List</h1>
+        <Link to="/newuser">
+          <button className="user-button">Create</button>
+        </Link>
       </div>
       <DataGrid
         rows={users}
