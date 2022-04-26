@@ -27,8 +27,6 @@ const Home = () => {
 
   const [data, setData] = useState([]);
 
-  console.log(JSON.parse(localStorage.getItem("user")).accesToken)
-
   useEffect(() => {
     const getStats = async () => {
       try {
